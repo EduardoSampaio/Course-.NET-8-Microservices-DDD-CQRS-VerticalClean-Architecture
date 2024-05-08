@@ -11,5 +11,3 @@
 ![](/imgs/discount-ms.png)
 
 ![](/imgs/comunication-rabbitmq.png)
-
-![](/imgs/refit.png)

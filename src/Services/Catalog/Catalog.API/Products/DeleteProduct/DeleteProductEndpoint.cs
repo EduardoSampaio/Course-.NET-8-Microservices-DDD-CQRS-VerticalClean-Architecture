@@ -1,4 +1,7 @@
 ﻿
+using Carter;
+using MediatR;
+
 namespace Catalog.API.Products.DeleteProduct;
 
 //public record DeleteProductRequest(Guid Id);
