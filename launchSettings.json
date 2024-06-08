@@ -8,7 +8,8 @@
         "basket.api": "StartDebugging",
         "basketdb": "StartWithoutDebugging",
         "catalogdb": "StartWithoutDebugging",
-        "distributedcache": "StartWithoutDebugging"
+        "distributedcache": "StartWithoutDebugging",
+        "discount.grpc": "StartDebugging"
       }
     }
   }

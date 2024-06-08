@@ -23,7 +23,9 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "src\Services\Basket\Basket.API\Basket.API.csproj", "{41D5D630-EB4A-47E7-A57E-60506A3BB896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "src\Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{B2E4FC99-2743-463C-872D-23F97531D97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "src\Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{B2E4FC99-2743-463C-872D-23F97531D97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "src\Services\Ordering\Ordering.API\Ordering.API.csproj", "{A7EFF002-0303-4473-B102-6FE31FF6ACB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B2E4FC99-2743-463C-872D-23F97531D97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2E4FC99-2743-463C-872D-23F97531D97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2E4FC99-2743-463C-872D-23F97531D97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EFF002-0303-4473-B102-6FE31FF6ACB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EFF002-0303-4473-B102-6FE31FF6ACB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EFF002-0303-4473-B102-6FE31FF6ACB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EFF002-0303-4473-B102-6FE31FF6ACB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{0C25E900-8AC6-44BA-97FB-1220B4616B43} = {3C5F5B5A-BCA5-49C5-A9D2-3EAC585C9DC1}
 		{41D5D630-EB4A-47E7-A57E-60506A3BB896} = {6C14CF62-45B5-49C2-98FC-6DA794E15421}
 		{B2E4FC99-2743-463C-872D-23F97531D97A} = {31D63405-2661-42E6-AF9A-E7AED1478456}
+		{A7EFF002-0303-4473-B102-6FE31FF6ACB1} = {942889B7-D672-4EAC-A40B-39F7D8EFB3F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E12FC6E7-A32F-4A57-A631-4FBCA4065B8B}
