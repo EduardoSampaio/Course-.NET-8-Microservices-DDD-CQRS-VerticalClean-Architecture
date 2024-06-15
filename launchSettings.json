@@ -9,7 +9,9 @@
         "basketdb": "StartWithoutDebugging",
         "catalogdb": "StartWithoutDebugging",
         "distributedcache": "StartWithoutDebugging",
-        "discount.grpc": "StartDebugging"
+        "discount.grpc": "StartDebugging",
+        "yarpapigateway": "StartDebugging",
+        "ordering.api": "StartDebugging"
       }
     }
   }
